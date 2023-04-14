@@ -1,0 +1,11 @@
+/* DEVELOPER: Jillian Andrea Juat, IS117-002, Spring 2023 */
+/* styles for the elements */
+h2 {
+    text-align: center;
+}
+
+/* styles for the footer */
+footer p {
+    text-align: center;
+    padding: 1px 0;
+}
