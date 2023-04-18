@@ -3,7 +3,7 @@
 /* styles for the elements */
 h2 {
     text-align: center;
-    padding: 20px;
+    padding: 1em;
 }
 
 /* styles for navigation bar */
@@ -11,5 +11,4 @@ h2 {
 /* styles for the footer */
 footer p {
     text-align: center;
-    padding: 1px 0;
 }
