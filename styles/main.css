@@ -5,7 +5,10 @@ h2 {
     text-align: center;
     padding: 1em;
 }
-
+h3 {
+    text-align: right;
+    margin-right: 20em; /* change after making header relative to image */
+}
 /* styles for navigation bar */
 
 /* styles for the footer */
