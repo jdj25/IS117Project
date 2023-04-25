@@ -15,51 +15,39 @@
     Jillian Andrea Juat's Career Site
 </h2>
 <!-- navigation bar -->
-<div class="container-fluid">
-    <nav class="navbar navbar-expand-md
-            justify-content-start
-            col-12">
-        <!-- Responsive Button for the smaller menu -->
-        <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href ="../pages/contact.html">Contact</a>
+                    <a class="nav-link" href="../pages/contact.html">Contact</a>
                 </li>
-                <!-- Dropdown -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
-                       data-toggle="dropdown" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Information
                     </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="../pages/aboutme.html">About Me</a>
-                        <a class="dropdown-item" href="../pages/workexperience.html">Work Experience</a>
-                        <a class="dropdown-item" href="../pages/careergoals.html">Career Goals</a>
-                    </div>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../pages/aboutme.html">About Me</a></li>
+                        <li><a class="dropdown-item" href="../pages/workexperience.html">Work Experience</a></li>
+                        <li><a class="dropdown-item" href="careergoals.html">Career Goals</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>
-    </nav>
-</div>
+    </div>
+</nav>
 <img src="/images/informationsystems.jpg" class="image" alt="Information Systems Clip Art">
 <h3>Career Goals</h3>
 <footer class="footer mt-auto py-3">
-    <div class="container">
-        <span class="text-muted">
-                <p>&copy Copyright Jillian Andrea Juat 2023 </p>
-                <p>Terms of Service </p>
-                <p>Privacy Statement</p>
-        </span>
-    </div>
+    <p>&copy Copyright Jillian Andrea Juat 2023 </p>
+    <p>Terms of Service </p>
+    <p>Privacy Statement</p>
 </footer>
 </body>
 <!-- JSS Bundle with Popper -->

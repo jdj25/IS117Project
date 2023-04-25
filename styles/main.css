@@ -16,11 +16,6 @@ h2 {
     float: left;
 }
 
-/* styles for the navigation bar */
-nav {
-    margin: 1em;
-    position: center;
-}
 /* styles for the carousel images */
 #carouselInterval {
     max-width: 50%;
@@ -29,7 +24,6 @@ nav {
 }
 
 /* styles for the footer */
-.text-muted {
+footer {
     text-align: center;
-    padding-top: 10em;
 }
