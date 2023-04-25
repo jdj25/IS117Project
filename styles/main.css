@@ -9,7 +9,10 @@ h3 {
     text-align: right;
     margin-right: 20em; /* change after making header relative to image */
 }
-/* styles for navigation bar */
+/* styles for carousel images */
+.d-block w-100 {
+
+}
 
 /* styles for the footer */
 footer p {
