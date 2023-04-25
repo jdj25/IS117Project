@@ -9,15 +9,27 @@ h2 {
     float: left;
     max-width: 40%;
     min-width: 150px;
-    margin: 0 3em;
+    margin: 0 3em 3em 3em;
+}
+
+#imagesrc {
+    float: left;
+}
+
+/* styles for the navigation bar */
+nav {
+    margin: 1em;
+    position: center;
 }
 /* styles for the carousel images */
-.d-block w-100 {
-    max-width: 60%;
-    min-width: 40%;
+#carouselInterval {
+    max-width: 50%;
+    min-width: 200px;
+    padding: 0 3em 3em 3em;
 }
 
 /* styles for the footer */
-footer p {
+.text-muted {
     text-align: center;
+    padding-top: 10em;
 }

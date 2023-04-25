@@ -16,52 +16,45 @@
     Jillian Andrea Juat's Career Site
 </h2>
 <!-- navigation bar -->
-<div class="container-fluid">
-<nav class="navbar navbar-expand-md
-            justify-content-start
-            col-12">
-    <!-- Responsive Button for the smaller menu -->
-    <button class="navbar-toggler" type="button"
-            data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-            <!-- Links -->
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href ="pages/contact.html">Contact</a>
-            </li>
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
-                   data-toggle="dropdown" role="button" data-bs-toggle="dropdown"
-                   aria-expanded="false">
-                    Information
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="pages/aboutme.html">About Me</a>
-                    <a class="dropdown-item" href="pages/workexperience.html">Work Experience</a>
-                    <a class="dropdown-item" href="pages/careergoals.html">Career Goals</a>
-                </div>
-            </li>
-        </ul>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Information
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="pages/aboutme.html">About Me</a></li>
+                        <li><a class="dropdown-item" href="pages/workexperience.html">Work Experience</a></li>
+                        <li><a class="dropdown-item" href="pages/careergoals.html">Career Goals</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
 </div>
 <!-- image carousel -->
 <div id="carouselInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
+        <div class="carousel-item active" data-bs-interval="1000">
             <img src="images/jillianandreajuat.jpg" class="d-block w-100" alt="Photo of Jillian Andrea Juat">
         </div>
         <div class="carousel-item" data-bs-interval="2000">
             <img src="images/informationsystems.jpg" class="d-block w-100" alt="Information Systems Clip Art">
         </div>
         <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="/images/CVS-Pharmacy-Logo.png" class="d-block w-100" alt="CVS Pharmacy Logo">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -73,13 +66,16 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-<footer>
-    <p>&copy Copyright Jillian Andrea Juat 2023 </p>
-    <p>Terms of Service </p>
-    <p>Privacy Statement</p>
+<footer class="footer mt-auto py-3">
+    <div class="container">
+        <span class="text-muted">
+                <p>&copy Copyright Jillian Andrea Juat 2023 </p>
+                <p>Terms of Service </p>
+                <p>Privacy Statement</p>
+        </span>
+    </div>
 </footer>
 </body>
-
 <!-- JSS Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
