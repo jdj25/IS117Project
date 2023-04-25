@@ -5,13 +5,16 @@ h2 {
     text-align: center;
     padding: 1em;
 }
-h3 {
-    text-align: right;
-    margin-right: 20em; /* change after making header relative to image */
+.image {
+    float: left;
+    max-width: 40%;
+    min-width: 150px;
+    margin: 0 3em;
 }
-/* styles for carousel images */
+/* styles for the carousel images */
 .d-block w-100 {
-
+    max-width: 60%;
+    min-width: 40%;
 }
 
 /* styles for the footer */
