@@ -15,6 +15,18 @@ h2 {
 #imagesrc {
     float: left;
 }
+/* styles for the footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
 
 /* styles for the carousel images */
 #carouselInterval {
