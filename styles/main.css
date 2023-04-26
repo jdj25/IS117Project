@@ -1,5 +1,6 @@
 /* DEVELOPER: Jillian Andrea Juat, IS117-002, Spring 2023 */
 
+/* styles for the elements */
 h2 {
     text-align: center;
     padding: 1em;
@@ -8,11 +9,29 @@ h2 {
     float: left;
     max-width: 35%;
     min-width: 150px;
-    margin: 1em 3em 3em 1.5em;
+    margin: 1em 3em 0 1.5em;
 }
 .content {
     padding: 0 3em;
 }
+/* style for the navigation bar */
+nav {
+    margin: 1em 3em 0.5em 1.5em;
+}
+/*style for the carousel */
+#carouselInterval {
+    max-width: 42%;
+    min-width: 150px;
+    padding: 1em 3em 3em 4em;
+}
+/*styles for the contact page */
+.contact {
+    margin: 1em 3em 0.5em 1.5em;
+}
+form {
+    margin: 0 3em 0 2.5em;
+}
+/*style for the footer */
 .footer {
     position: fixed;
     left: 0;
@@ -23,9 +42,4 @@ h2 {
     text-align: center;
     padding: 10px;
     font-size: 1rem;
-}
-#carouselInterval {
-    max-width: 42%;
-    min-width: 150px;
-    padding: 1em 3em 3em 4em;
 }
